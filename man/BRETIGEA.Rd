@@ -10,6 +10,4 @@ This package provides two major functions:
 1) A function to estimate cell type surrogate proportion variables based on marker genes.
 2) A function to adjust bulk gene expression data for estimated cell type proportions, as covariates.
 It also provides data containing estimated marker genes for six major brain cell types, i.e. astrocytes, endothelial cells, microglia, neurons, oligodendrocytes, and oligodendrocyte precursor cells (OPCs), as well as wrapper functions to use this data on the two major package functions.
-The first two functions comprise the discovery of differential correlation (ddcor) portion of the package, which is why the names of the functions and object names often begin with ddcor.
-Note that DGCA makes use of the 	SAF = getOption("stringsAsFactors"); on.exit(options(stringsAsFactors = SAF)); options(stringsAsFactors = FALSE) design pattern many times in order to avoid errors related to stringsAsFactors in porting code to new environments. This should not affect the stringsAsFactors options in your environment; however, you may want to be aware of this.
 }

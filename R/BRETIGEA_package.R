@@ -4,8 +4,6 @@
 #' 1) A function to estimate cell type surrogate proportion variables based on marker genes.
 #' 2) A function to adjust bulk gene expression data for estimated cell type proportions, as covariates.
 #' It also provides data containing estimated marker genes for six major brain cell types, i.e. astrocytes, endothelial cells, microglia, neurons, oligodendrocytes, and oligodendrocyte precursor cells (OPCs), as well as wrapper functions to use this data on the two major package functions.
-#' The first two functions comprise the discovery of differential correlation (ddcor) portion of the package, which is why the names of the functions and object names often begin with ddcor.
-#' Note that DGCA makes use of the 	SAF = getOption("stringsAsFactors"); on.exit(options(stringsAsFactors = SAF)); options(stringsAsFactors = FALSE) design pattern many times in order to avoid errors related to stringsAsFactors in porting code to new environments. This should not affect the stringsAsFactors options in your environment; however, you may want to be aware of this.
 #'
 #' @docType package
 #' @name BRETIGEA
@@ -26,15 +24,15 @@ NULL
 
 #' @title Marker genes estimated from a meta-analysis of brain cell gene expression data from both humans and mice.
 #' @description Top 1000 marker genes from each of the six major brain cell types (ie astrocytes, endothelial cells, microglia, neurons, oligodendrocytes, and OPCs) estimated from a meta-analysis of brain cell gene expression data from both humans and mice.
-#' @references McKenzie, Wang, et al. In preparation.
+#' @references Mckenzie AT, Wang M, Hauberg ME, et al. Brain Cell Type Specific Gene Expression and Co-expression Network Architectures. Sci Rep. 2018;8(1):8868.
 "markers_df_brain"
 
 #' @title Marker genes estimated from a meta-analysis of brain cell gene expression data from humans only.
 #' @description Top 1000 marker genes from each of the six major brain cell types (ie astrocytes, endothelial cells, microglia, neurons, oligodendrocytes, and OPCs) estimated from a meta-analysis of brain cell gene expression data from humans only.
-#' @references McKenzie, Wang, et al. In preparation.
+#' @references Mckenzie AT, Wang M, Hauberg ME, et al. Brain Cell Type Specific Gene Expression and Co-expression Network Architectures. Sci Rep. 2018;8(1):8868.
 "markers_df_human_brain"
 
 #' @title Marker genes estimated from a meta-analysis of brain cell gene expression data from mice only.
 #' @description Top 1000 marker genes from each of the six major brain cell types (ie astrocytes, endothelial cells, microglia, neurons, oligodendrocytes, and OPCs) estimated from a meta-analysis of brain cell gene expression data from mice only.
-#' @references McKenzie, Wang, et al. In preparation.
+#' @references Mckenzie AT, Wang M, Hauberg ME, et al. Brain Cell Type Specific Gene Expression and Co-expression Network Architectures. Sci Rep. 2018;8(1):8868.
 "markers_df_mouse_brain"

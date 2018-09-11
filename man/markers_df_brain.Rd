@@ -12,6 +12,6 @@ markers_df_brain
 Top 1000 marker genes from each of the six major brain cell types (ie astrocytes, endothelial cells, microglia, neurons, oligodendrocytes, and OPCs) estimated from a meta-analysis of brain cell gene expression data from both humans and mice.
 }
 \references{
-McKenzie, Wang, et al. In preparation.
+Mckenzie AT, Wang M, Hauberg ME, et al. Brain Cell Type Specific Gene Expression and Co-expression Network Architectures. Sci Rep. 2018;8(1):8868.
 }
 \keyword{datasets}
