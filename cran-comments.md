@@ -1,1 +1,4 @@
-This is the first submission of BRETIGEA to CRAN.
+## Resubmission
+This is a resubmission. In this version I have:
+
+* Replaced \dontrun{} by \donttest{}.

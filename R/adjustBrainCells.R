@@ -9,7 +9,7 @@
 #' @param verbose Whether to report the formula used for adjustment of each row.
 #' @return A list containing both a matrix of estimate surrogate proportion variables (SPVs), as well as a matrix of adjusted gene expression values.
 #' @examples
-#'\dontrun{
+#'\donttest{
 #' brain_cells_adjusted = adjustBrainCells(aba_marker_expression,
 #'   nMarker = 50, species = "combined")
 #' expression_data_adj = brain_cells_adjusted$expression

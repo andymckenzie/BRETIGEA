@@ -25,7 +25,7 @@ A sample-by-cell type matrix of estimate cell type proportion variables.
 Input a gene expression matrix and your own data frame of marker genes, and this function will estimate cell type proportions in your data set using one of the SVD or PCA dimension reduction approaches.
 }
 \examples{
-\dontrun{
+\donttest{
 cell_type_proportions = findCells(aba_marker_expression,
  markers = markers_df_brain, nMarker = 10)
 str(cell_type_proportions)

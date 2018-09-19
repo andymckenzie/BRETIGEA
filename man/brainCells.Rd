@@ -28,7 +28,7 @@ A sample-by-cell type matrix of estimate cell type proportion variables.
 This function uses marker genes estimated in a meta-analysis of brain cell type-associated RNA expression data sets, and uses them as input for the findCells cell type proportion estimation procedure pipeline.
 }
 \examples{
-\dontrun{
+\donttest{
 ct_res = brainCells(aba_marker_expression, nMarker = 50, species = "combined")
 cor.test(ct_res[, "mic"], as.numeric(aba_pheno_data$ihc_iba1_ffpe), method = "spearman")
 }

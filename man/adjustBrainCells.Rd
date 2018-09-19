@@ -30,7 +30,7 @@ A list containing both a matrix of estimate surrogate proportion variables (SPVs
 This function uses a linear model to adjust each row of gene expression for cell types. Other covariates can be included as well.
 }
 \examples{
-\dontrun{
+\donttest{
 brain_cells_adjusted = adjustBrainCells(aba_marker_expression,
   nMarker = 50, species = "combined")
 expression_data_adj = brain_cells_adjusted$expression

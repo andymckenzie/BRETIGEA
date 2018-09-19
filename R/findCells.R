@@ -8,7 +8,7 @@
 #' @return A sample-by-cell type matrix of estimate cell type proportion variables.
 #' @references Chikina M, Zaslavsky E, Sealfon SC. CellCODE: a robust latent variable approach to differential expression analysis for heterogeneous cell populations. Bioinformatics. 2015;31(10):1584-91.
 #'@examples
-#'\dontrun{
+#'\donttest{
 #'cell_type_proportions = findCells(aba_marker_expression,
 #'  markers = markers_df_brain, nMarker = 10)
 #'str(cell_type_proportions)

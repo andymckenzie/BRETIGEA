@@ -8,7 +8,7 @@
 #' @param verbose Whether to print out the formula used for adjustment of each row.
 #' @return A matrix of adjusted gene expression values.
 #' @examples
-#'\dontrun{
+#'\donttest{
 #' svp_res = brainCells(inputMat = aba_marker_expression, nMarker = 10,
 #'   species = "human", celltypes = c("ast", "neu", "oli"))
 #' str(svp_res)

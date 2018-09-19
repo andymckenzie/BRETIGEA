@@ -27,7 +27,7 @@ A matrix of adjusted gene expression values.
 This function uses a linear model to adjust each row of gene expression for cell types, taking the residuals from the linear model for downstream analysis. Other covariates can be included as well, if they are defined in the current environment, through the use of the formula argument.
 }
 \examples{
-\dontrun{
+\donttest{
 svp_res = brainCells(inputMat = aba_marker_expression, nMarker = 10,
   species = "human", celltypes = c("ast", "neu", "oli"))
 str(svp_res)
