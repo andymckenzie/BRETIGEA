@@ -1,3 +1,7 @@
+[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/ggplot2)](https://cran.r-project.org/package=BRETIGEA)
+[![Rdoc](http://www.rdocumentation.org/badges/version/BRETIGEA)](http://www.rdocumentation.org/packages/BRETIGEA)
+[![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/BRETIGEA)](http://cranlogs.r-pkg.org/badges/grand-total/BRETIGEA)
+
 # BRETIGEA
 
 The goal of BRETIGEA (BRain cEll Type specIfic Gene Expression Analysis) is to estimate and/or deconvolute relative cell type proportions from bulk gene expression data.
@@ -7,6 +11,12 @@ BRETIGEA simplifies the process of defining your own set of brain cell type mark
 BRETIGEA also implements multiple options for relative cell type proportion estimation using these marker genes, adapting and expanding on approaches from the 'CellCODE' R package described in [Chikina et al 2015](https://www.ncbi.nlm.nih.gov/pubmed/25583121). The number of cell type marker genes used in a given analysis can be increased or decreased based on your preferences and the data set. Finally, BRETIGEA provides functions to use the estimates to adjust for variability in the relative proportion of cell types across samples (i.e., deconvolute) prior to downstream analyses.
 
 ## Installation
+
+You can install DGCA from CRAN with:
+
+```R
+install.packages("BRETIGEA")
+```
 
 You can install the development version of BRETIGEA from Github with:
 
