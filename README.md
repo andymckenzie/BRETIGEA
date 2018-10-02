@@ -12,7 +12,7 @@ BRETIGEA also implements multiple options for relative cell type proportion esti
 
 ## Installation
 
-You can install BRETIGREA from CRAN with:
+You can install BRETIGEA from CRAN with:
 
 ```R
 install.packages("BRETIGEA")
