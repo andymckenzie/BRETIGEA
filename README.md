@@ -46,7 +46,7 @@ print(cor_ast)
 
 ## Vignette
 
-See the vignette in the inst/doc subdirectory for a more thorough example.
+See the basic vignette for help with getting started here: https://github.com/andymckenzie/BRETIGEA/blob/master/inst/doc/BRETIGEA_basic.pdf
 
 ## Applications
 
