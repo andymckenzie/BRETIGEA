@@ -56,9 +56,7 @@ https://www.nature.com/articles/s41598-018-27293-5
 
 ## References
 
-1. The data included in the testing portion of the package is from the Allen Brain Atlas Aging, Memory, and TBI study. Here is the reference:
-
-© 2016 Allen Institute for Cell Science. Aging, Dementia and TBI. Available from: http://aging.brain-map.org/
+1. The data included in the testing portion of the package is from the Allen Brain Atlas Aging, Memory, and TBI study. Here is the reference: © 2016 Allen Institute for Cell Science. Aging, Dementia and TBI. Available from: http://aging.brain-map.org/
 
 2. Chikina M, Zaslavsky E, Sealfon SC. CellCODE: a robust latent variable approach to differential expression analysis for heterogeneous cell populations. Bioinformatics. 2015;31(10):1584-91.
 
