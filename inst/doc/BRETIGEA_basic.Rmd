@@ -89,6 +89,37 @@ ct_res = brainCells(aba_marker_expression, nMarker = 50, species = "combined",
 kable(head(ct_res))
 ```
 
+# Using alternative cell type marker genes from Kelley *et al.* 
+
+In addition to the default data set built from a meta-analysis across cell type-specific gene expression data, BRETIGEA also offers access to cell type markers based on leveraging variation across intact tissue samples. The cell types for which markers are available based on this data set are astrocytes, neurons, microglia, and oligodendrocytes. 
+
+To use this, change the *data_set* parameter to "kelley" (referring to Kelley *et al.*, 2018, PMID: 30154505) when you call brainCells(). Note that the *species* argument will be ignored if *data_set* is set to "kelley". 
+
+```{r, message = FALSE}
+ct_res = brainCells(aba_marker_expression, nMarker = 50, data_set = "kelley")
+kable(head(ct_res))
+```
+
+In the Allen Brain Atlas RNA-seq data, the estimated proportions are overall very similar between the "mckenzie" and "kelley" data sets. 
+
+```{r, message = FALSE}
+ct_res_mckenzie = brainCells(aba_marker_expression, nMarker = 50, data_set = "mckenzie", species = "human")
+ct_res_kelley = brainCells(aba_marker_expression, nMarker = 50, data_set = "kelley")
+cell_types_compare = colnames(ct_res_kelley)
+for(i in 1:length(cell_types_compare)){
+  cor_res = cor.test(ct_res_mckenzie[ , cell_types_compare[i]], ct_res_kelley[ , cell_types_compare[i]], method = "spearman")
+df_compare_cor = data.frame(Cell = cell_types_compare[i], Rho = cor_res$estimate, PVal = cor_res$p.value)
+  if(i ==1) df_compare_cor_tot = df_compare_cor
+  if(i > 1) df_compare_cor_tot = rbind(df_compare_cor_tot, df_compare_cor)}
+kable(df_compare_cor_tot)
+```
+
+This alternative data set also offers marker genes derived from several specific brain regions: 
+
+```{r, message = FALSE, echo = FALSE}
+print(unique(unlist(lapply(strsplit(unique(kelley_df_brain$cell)[-c(1, 2, 3, 4)], "_"), "[[", 1))))
+```
+
 # Using your own cell type marker genes
 
 If you have access to your own marker genes, you can use the *findCells* function instead. This has the same functionality otherwise; *brainCells* is simply a wrapper function for users who want to use the brain cell type marker genes that are provided by **BRETIGEA**. Note the format of the *markers* data frame: you must have one column with the gene symbol, named *markers*, and one column with the corresponding cell type, named *cell*.

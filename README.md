@@ -56,8 +56,10 @@ https://www.nature.com/articles/s41598-018-27293-5
 
 ## References
 
-1. The data included in the testing portion of the package is from the Allen Brain Atlas Aging, Memory, and TBI study. Here is the reference: © 2016 Allen Institute for Cell Science. Aging, Dementia and TBI. Available from: http://aging.brain-map.org/
+1. McKenzie AT, Wang M, Hauberg ME, et al. Brain Cell Type Specific Gene Expression and Co-expression Network Architectures. Sci Rep. 2018;8(1):8868. See also: http://celltypes.org/
 
 2. Chikina M, Zaslavsky E, Sealfon SC. CellCODE: a robust latent variable approach to differential expression analysis for heterogeneous cell populations. Bioinformatics. 2015;31(10):1584-91.
 
-3. McKenzie AT, Wang M, Hauberg ME, et al. Brain Cell Type Specific Gene Expression and Co-expression Network Architectures. Sci Rep. 2018;8(1):8868.
+3. Miller JA, Guillozet-bongaarts A, Gibbons LE, et al. Neuropathological and transcriptomic characteristics of the aged brain. Elife. 2017;6. Available from: http://aging.brain-map.org/
+
+4. Kelley KW, Nakao-inoue H, Molofsky AV, Oldham MC. Variation among intact tissue samples reveals the core transcriptional features of human CNS cell classes. Nat Neurosci. 2018;21(9):1171-1184. Alternative marker data from: http://oldhamlab.ctec.ucsf.edu/

@@ -41,6 +41,7 @@ findCells <- function(inputMat, markers, nMarker = 50, method = "SVD", scale = T
       }
       if(top_markers_present_count == nMarker) break
     }
+    print(top_markers_present)
     tmp_markers_top = data.frame(markers = top_markers_present,
       cell = rep(cell_types[i], length(top_markers_present)), stringsAsFactors = FALSE)
     if(i == 1){
@@ -68,6 +69,7 @@ findCells <- function(inputMat, markers, nMarker = 50, method = "SVD", scale = T
       props = svdres$v[ , 1]
     }
     cor_res = cor(props, t(data[genes, ]))
+    print(cor_res)
     if (mean(cor_res, na.rm = TRUE) < 0) {
         props = -props
     }

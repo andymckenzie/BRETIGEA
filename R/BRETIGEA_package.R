@@ -32,6 +32,11 @@ NULL
 #' @references Mckenzie AT, Wang M, Hauberg ME, et al. Brain Cell Type Specific Gene Expression and Co-expression Network Architectures. Sci Rep. 2018;8(1):8868.
 "markers_df_human_brain"
 
+#' @title Marker genes estimated from
+#' @description Top 1000 marker genes from each of four major brain cell types (ie astrocytes, microglia, neurons, and oligodendrocytes) estimated via correlation-based analysis of bulk brain tissue. Contains marker data averaged across all brain regions as well as markers derived from individual brain regions.
+#' @references Kelley KW, Nakao-inoue H, Molofsky AV, Oldham MC. Variation among intact tissue samples reveals the core transcriptional features of human CNS cell classes. Nat Neurosci. 2018;21(9):1171-1184.
+"kelley_df_brain"
+
 #' @title Marker genes estimated from a meta-analysis of brain cell gene expression data from mice only.
 #' @description Top 1000 marker genes from each of the six major brain cell types (ie astrocytes, endothelial cells, microglia, neurons, oligodendrocytes, and OPCs) estimated from a meta-analysis of brain cell gene expression data from mice only.
 #' @references Mckenzie AT, Wang M, Hauberg ME, et al. Brain Cell Type Specific Gene Expression and Co-expression Network Architectures. Sci Rep. 2018;8(1):8868.
