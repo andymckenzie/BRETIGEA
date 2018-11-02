@@ -18,7 +18,7 @@ You can install BRETIGEA from CRAN with:
 install.packages("BRETIGEA")
 ```
 
-You can install the development version of BRETIGEA from Github with:
+You can install the development version of BRETIGEA from Github, which is recommended to use the most updated version, with:
 
 ```R
 # install.packages("devtools")
