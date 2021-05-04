@@ -4,7 +4,9 @@
 \name{aba_pheno_data}
 \alias{aba_pheno_data}
 \title{Phenotype data from brain samples in the Allen Brain Atlas Aging, Dementia, and TBI study.}
-\format{An object of class \code{data.frame} with 377 rows and 4 columns.}
+\format{
+An object of class \code{data.frame} with 377 rows and 4 columns.
+}
 \usage{
 aba_pheno_data
 }

@@ -4,7 +4,9 @@
 \name{markers_df_brain}
 \alias{markers_df_brain}
 \title{Marker genes estimated from a meta-analysis of brain cell gene expression data from both humans and mice.}
-\format{An object of class \code{data.frame} with 6000 rows and 2 columns.}
+\format{
+An object of class \code{data.frame} with 6000 rows and 2 columns.
+}
 \usage{
 markers_df_brain
 }

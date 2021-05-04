@@ -4,9 +4,15 @@
 \alias{brainCells}
 \title{Estimate brain cell type proportions in bulk expression data with marker genes.}
 \usage{
-brainCells(inputMat, nMarker = 50, species = "combined",
+brainCells(
+  inputMat,
+  nMarker = 50,
+  species = "combined",
+  data_set = "mckenzie",
   celltypes = c("ast", "end", "mic", "neu", "oli", "opc"),
-  method = "SVD", scale = TRUE)
+  method = "SVD",
+  scale = TRUE
+)
 }
 \arguments{
 \item{inputMat}{Gene expression data frame or matrix, with rownames corresponding to gene names, some of which are marker genes, and columns corresponding to samples.}
@@ -15,9 +21,11 @@ brainCells(inputMat, nMarker = 50, species = "combined",
 
 \item{species}{By default, this function uses markers from combined human and mouse measurements, which are the most robust and reliable, as the gene expression patterns are very conserved between these two species. Other options are "human" and "mouse" for data specific to those species. Note that OPCs only have 500 gene symbols in this case, and are taken from only the Darmanis et al or Tasic et al data sets, respectively.}
 
+\item{data_set}{Which data set the data should be derived from. Options are "mckenzie" (default), "kelley". Note that the "kelley" data set will ignore the "species" argument.}
+
 \item{celltypes}{Character vector of which cell types to estimate.}
 
-\item{method}{To estimate the cell type proportions, can either use PCA or SVD.}
+\item{method}{To estimate the cell type proportions, can either use "PCA" or "SVD".}
 
 \item{scale}{Whether or not to scale the gene expression data from each marker gene prior to using it as an input for dimension reduction.}
 }

@@ -4,8 +4,14 @@
 \alias{adjustCells}
 \title{Adjust for estimated cell type proportions in bulk gene expression data.}
 \usage{
-adjustCells(inputMat, cellSPV, celltypes = NULL, addMeans = FALSE,
-  formula = NULL, verbose = FALSE)
+adjustCells(
+  inputMat,
+  cellSPV,
+  celltypes = NULL,
+  addMeans = FALSE,
+  formula = NULL,
+  verbose = FALSE
+)
 }
 \arguments{
 \item{inputMat}{Input gene expression data, with rows as features (e.g. genes) and samples as columns.}

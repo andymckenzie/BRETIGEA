@@ -4,7 +4,9 @@
 \name{aba_marker_expression}
 \alias{aba_marker_expression}
 \title{Normalized FPKM expression data from a subset of the Allen Brain Atlas Aging, Dementia, and TBI study.}
-\format{An object of class \code{data.frame} with 395 rows and 377 columns.}
+\format{
+An object of class \code{data.frame} with 395 rows and 377 columns.
+}
 \usage{
 aba_marker_expression
 }

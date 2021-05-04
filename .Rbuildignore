@@ -7,3 +7,5 @@
 ^.DS_Store
 .gitignore
 .git
+^doc$
+^Meta$

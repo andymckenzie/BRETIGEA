@@ -4,8 +4,7 @@
 \alias{findCells}
 \title{Find cell type proportions from bulk gene expression data using marker genes.}
 \usage{
-findCells(inputMat, markers, nMarker = 50, method = "SVD",
-  scale = TRUE)
+findCells(inputMat, markers, nMarker = 50, method = "SVD", scale = TRUE)
 }
 \arguments{
 \item{inputMat}{Numeric gene expression data frame or matrix, with rownames corresponding to gene names, some of which are marker genes, and columns corresponding to samples.}

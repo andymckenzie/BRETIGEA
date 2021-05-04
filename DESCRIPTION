@@ -1,6 +1,6 @@
 Package: BRETIGEA
 Title: Brain Cell Type Specific Gene Expression Analysis
-Version: 1.0.2
+Version: 1.0.3
 Author: Andrew McKenzie [aut, cre],
     Minghui Wang [aut],
     Bin Zhang [aut]
@@ -11,7 +11,8 @@ Suggests:
     testthat,
     stats,
     utils,
-    knitr
+    knitr,
+    rmarkdown
 VignetteBuilder: knitr
 RoxygenNote: 6.1.0
 License: MIT + file LICENSE

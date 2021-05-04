@@ -1,4 +1,5 @@
 ## Resubmission
 This is a resubmission. In this version I have:
 
-* Replaced \dontrun{} by \donttest{}.
+* Added rmarkdown in the 'Suggests' field of DESCRIPTION. 
+* Added an additional set of marker genes. 

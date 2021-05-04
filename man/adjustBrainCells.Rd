@@ -4,9 +4,15 @@
 \alias{adjustBrainCells}
 \title{Estimate and adjust for brain cell type proportions in bulk expression data.}
 \usage{
-adjustBrainCells(inputMat, nMarker = 50, species = "combined",
+adjustBrainCells(
+  inputMat,
+  nMarker = 50,
+  species = "combined",
   celltypes = c("ast", "end", "mic", "neu", "oli", "opc"),
-  addMeans = FALSE, formula = NULL, verbose = FALSE)
+  addMeans = FALSE,
+  formula = NULL,
+  verbose = FALSE
+)
 }
 \arguments{
 \item{inputMat}{Input gene expression data, with rows as features (e.g. genes) and samples as columns.}
