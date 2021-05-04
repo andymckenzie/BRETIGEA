@@ -1,6 +1,6 @@
-[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/ggplot2)](https://cran.r-project.org/package=BRETIGEA)
+[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/BRETIGEA)](https://cran.r-project.org/package=BRETIGEA)
 [![Rdoc](http://www.rdocumentation.org/badges/version/BRETIGEA)](http://www.rdocumentation.org/packages/BRETIGEA)
-[![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/BRETIGEA)](http://cranlogs.r-pkg.org/badges/grand-total/BRETIGEA)
+[![Downloads](https://cranlogs.r-pkg.org:443/badges/grand-total/BRETIGEA)](http://cranlogs.r-pkg.org/badges/grand-total/BRETIGEA)
 
 # BRETIGEA
 
