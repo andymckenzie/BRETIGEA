@@ -9,7 +9,7 @@
 #' @name BRETIGEA
 #' @importFrom stats as.formula cor prcomp predict residuals
 #' @importFrom utils head str
-NULL
+"_PACKAGE"
 #> NULL
 
 #' @title Normalized FPKM expression data from a subset of the Allen Brain Atlas Aging, Dementia, and TBI study.

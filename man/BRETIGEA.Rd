@@ -3,6 +3,7 @@
 \docType{package}
 \name{BRETIGEA}
 \alias{BRETIGEA}
+\alias{BRETIGEA-package}
 \title{BRETIGEA: BRain cEll Type specIfic Gene Expression Analysis}
 \description{
 This package provides two major functions:
