@@ -1,5 +1,4 @@
 [![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/BRETIGEA)](https://cran.r-project.org/package=BRETIGEA)
-[![Rdoc](https://www.rdocumentation.org/badges/version/BRETIGEA)](https://www.rdocumentation.org/packages/BRETIGEA)
 [![Downloads](https://cranlogs.r-pkg.org:443/badges/grand-total/BRETIGEA)](https://cranlogs.r-pkg.org/badges/grand-total/BRETIGEA)
 
 # BRETIGEA
